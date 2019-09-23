@@ -7,14 +7,29 @@
 //
 
 import UIKit
+import WebKit
+
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let webView = WKWebView(frame: view.frame)
+        view.addSubview(webView)
+        
+        let url = URL(string: "http://dev.asixonline.com/inteligolife_app/")!
+        //let url = URL(string: "https://www.inteligolife.com/")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = false
+
     }
 
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
+    
 
 }
 

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Inteligo-Life-iOS.xcodeproj">
+      location = "self:/Users/fischer/Documents/XCode Projects/Inteligo-Life-iOS/Inteligo-Life-iOS.xcodeproj">
    </FileRef>
 </Workspace>
