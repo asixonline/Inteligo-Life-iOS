@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		712E60D3233929C100515531 /* Inteligo-Life-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inteligo-Life-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		712E60D3233929C100515531 /* Inteligo Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inteligo Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		712E60D6233929C100515531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712E60D8233929C100515531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		712E60DB233929C100515531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		712E60D4233929C100515531 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				712E60D3233929C100515531 /* Inteligo-Life-iOS.app */,
+				712E60D3233929C100515531 /* Inteligo Life.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		712E60D2233929C100515531 /* Inteligo-Life-iOS */ = {
+		712E60D2233929C100515531 /* Inteligo Life */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 712E60E5233929C500515531 /* Build configuration list for PBXNativeTarget "Inteligo-Life-iOS" */;
+			buildConfigurationList = 712E60E5233929C500515531 /* Build configuration list for PBXNativeTarget "Inteligo Life" */;
 			buildPhases = (
 				712E60CF233929C100515531 /* Sources */,
 				712E60D0233929C100515531 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = "Inteligo-Life-iOS";
+			name = "Inteligo Life";
 			productName = "Inteligo-Life-iOS";
-			productReference = 712E60D3233929C100515531 /* Inteligo-Life-iOS.app */;
+			productReference = 712E60D3233929C100515531 /* Inteligo Life.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 712E60CE233929C100515531 /* Build configuration list for PBXProject "Inteligo-Life-iOS" */;
+			buildConfigurationList = 712E60CE233929C100515531 /* Build configuration list for PBXProject "Inteligo Life" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				712E60D2233929C100515531 /* Inteligo-Life-iOS */,
+				712E60D2233929C100515531 /* Inteligo Life */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		712E60CE233929C100515531 /* Build configuration list for PBXProject "Inteligo-Life-iOS" */ = {
+		712E60CE233929C100515531 /* Build configuration list for PBXProject "Inteligo Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				712E60E3233929C500515531 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		712E60E5233929C500515531 /* Build configuration list for PBXNativeTarget "Inteligo-Life-iOS" */ = {
+		712E60E5233929C500515531 /* Build configuration list for PBXNativeTarget "Inteligo Life" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				712E60E6233929C500515531 /* Debug */,
