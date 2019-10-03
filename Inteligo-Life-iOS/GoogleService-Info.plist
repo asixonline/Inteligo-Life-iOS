@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1007953968218-2h0j3g0rf91210k2ug15ljcahltakb29.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1007953968218-2h0j3g0rf91210k2ug15ljcahltakb29</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1007953968218-66r10sho86mvq4g7e1gpp9t5kc4pdn47.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCgEiC67F9b0Mh2BFSiJ-OgVLEJkvumZ0Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1007953968218</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.inteligolife</string>
+	<key>PROJECT_ID</key>
+	<string>inteligo-life-push</string>
+	<key>STORAGE_BUCKET</key>
+	<string>inteligo-life-push.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1007953968218:ios:e7343c8d9959277008ac63</string>
+	<key>DATABASE_URL</key>
+	<string>https://inteligo-life-push.firebaseio.com</string>
+</dict>
+</plist>

@@ -3,23 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68B8EC1AC528444B58F99BDD /* Pods_Inteligo_Life.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D015236799E37C2661FD9EF9 /* Pods_Inteligo_Life.framework */; };
 		712E60D7233929C100515531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E60D6233929C100515531 /* AppDelegate.swift */; };
 		712E60D9233929C100515531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E60D8233929C100515531 /* ViewController.swift */; };
 		712E60DC233929C100515531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712E60DA233929C100515531 /* Main.storyboard */; };
 		718DCABB23396CD500F3047F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718DCABA23396CD500F3047F /* Images.xcassets */; };
+		71ACFB0C234550D400B1C49E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71ACFB0B234550D400B1C49E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D06A931A682BCE21C367951 /* Pods-Inteligo Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inteligo Life.debug.xcconfig"; path = "Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life.debug.xcconfig"; sourceTree = "<group>"; };
 		712E60D3233929C100515531 /* Inteligo Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inteligo Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		712E60D6233929C100515531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712E60D8233929C100515531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		712E60DB233929C100515531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712E60E2233929C500515531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718DCABA23396CD500F3047F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71ACFB0B234550D400B1C49E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8AF72F909BBA035B7A98A15 /* Pods-Inteligo Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inteligo Life.release.xcconfig"; path = "Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life.release.xcconfig"; sourceTree = "<group>"; };
+		D015236799E37C2661FD9EF9 /* Pods_Inteligo_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inteligo_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B8EC1AC528444B58F99BDD /* Pods_Inteligo_Life.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,8 @@
 			children = (
 				712E60D5233929C100515531 /* Inteligo-Life-iOS */,
 				712E60D4233929C100515531 /* Products */,
+				CAA930CF8312991516800F3A /* Pods */,
+				912422670291074ED46B33EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +65,27 @@
 				712E60D8233929C100515531 /* ViewController.swift */,
 				712E60DA233929C100515531 /* Main.storyboard */,
 				712E60E2233929C500515531 /* Info.plist */,
+				71ACFB0B234550D400B1C49E /* GoogleService-Info.plist */,
 				718DCABA23396CD500F3047F /* Images.xcassets */,
 			);
 			path = "Inteligo-Life-iOS";
+			sourceTree = "<group>";
+		};
+		912422670291074ED46B33EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D015236799E37C2661FD9EF9 /* Pods_Inteligo_Life.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA930CF8312991516800F3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D06A931A682BCE21C367951 /* Pods-Inteligo Life.debug.xcconfig */,
+				C8AF72F909BBA035B7A98A15 /* Pods-Inteligo Life.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 712E60E5233929C500515531 /* Build configuration list for PBXNativeTarget "Inteligo Life" */;
 			buildPhases = (
+				FEB0C822F1FFD6AC8B44B665 /* [CP] Check Pods Manifest.lock */,
 				712E60CF233929C100515531 /* Sources */,
 				712E60D0233929C100515531 /* Frameworks */,
 				712E60D1233929C100515531 /* Resources */,
+				8E75FF9F3F290276B0A9B5DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,7 +126,7 @@
 				};
 			};
 			buildConfigurationList = 712E60CE233929C100515531 /* Build configuration list for PBXProject "Inteligo Life" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -121,10 +150,53 @@
 			files = (
 				712E60DC233929C100515531 /* Main.storyboard in Resources */,
 				718DCABB23396CD500F3047F /* Images.xcassets in Resources */,
+				71ACFB0C234550D400B1C49E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E75FF9F3F290276B0A9B5DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB0C822F1FFD6AC8B44B665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inteligo Life-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		712E60CF233929C100515531 /* Sources */ = {
@@ -268,9 +340,11 @@
 		};
 		712E60E6233929C500515531 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D06A931A682BCE21C367951 /* Pods-Inteligo Life.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PPSVBFMMH;
 				INFOPLIST_FILE = "$(SRCROOT)/Inteligo-Life-iOS/Info.plist";
@@ -281,6 +355,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inteligolife.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -288,9 +363,11 @@
 		};
 		712E60E7233929C500515531 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AF72F909BBA035B7A98A15 /* Pods-Inteligo Life.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PPSVBFMMH;
 				INFOPLIST_FILE = "$(SRCROOT)/Inteligo-Life-iOS/Info.plist";
@@ -301,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inteligolife.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

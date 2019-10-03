@@ -19,8 +19,7 @@ class ViewController: UIViewController {
         let webView = WKWebView(frame: view.frame)
         view.addSubview(webView)
         
-        let url = URL(string: "http://dev.asixonline.com/inteligolife_app/")!
-        //let url = URL(string: "https://www.inteligolife.com/")!
+        let url = URL(string: "https://www.inteligolife.com/app/")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = false
 
