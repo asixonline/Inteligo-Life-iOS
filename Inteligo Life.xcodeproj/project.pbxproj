@@ -23,6 +23,7 @@
 		712E60DB233929C100515531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712E60E2233929C500515531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718DCABA23396CD500F3047F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71960E252357E254003BEC91 /* Inteligo Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Inteligo Life.entitlements"; sourceTree = "<group>"; };
 		71ACFB0B234550D400B1C49E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C8AF72F909BBA035B7A98A15 /* Pods-Inteligo Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inteligo Life.release.xcconfig"; path = "Target Support Files/Pods-Inteligo Life/Pods-Inteligo Life.release.xcconfig"; sourceTree = "<group>"; };
 		D015236799E37C2661FD9EF9 /* Pods_Inteligo_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inteligo_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +44,7 @@
 		712E60CA233929C100515531 = {
 			isa = PBXGroup;
 			children = (
+				71960E252357E254003BEC91 /* Inteligo Life.entitlements */,
 				712E60D5233929C100515531 /* Inteligo-Life-iOS */,
 				712E60D4233929C100515531 /* Products */,
 				CAA930CF8312991516800F3A /* Pods */,
@@ -122,6 +124,11 @@
 				TargetAttributes = {
 					712E60D2233929C100515531 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
