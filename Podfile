@@ -5,13 +5,12 @@
 target 'Inteligo Life' do
   # Comment the next line if you don't want to use dynamic frameworks
  
-  use_frameworks!
+ pod 'OneSignal', '>= 2.6.2', '< 3.0'
 
-# Add the Firebase pod for Google Analytics
-pod 'Firebase/Analytics'
-# Add the pod for Firebase Cloud Messaging
-pod 'Firebase/Messaging'
+end
 
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.6.2', '< 3.0'
 end
 
 # add pods for desired Firebase products

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E32F54D6438952D476E4C7B5D74F9EE4"
-               BuildableName = "libPods-Inteligo Life.a"
-               BlueprintName = "Pods-Inteligo Life"
+               BlueprintIdentifier = "BD0F10574EB554D7E668F50D2A5B77DF"
+               BuildableName = "libPods-OneSignalNotificationServiceExtension.a"
+               BlueprintName = "Pods-OneSignalNotificationServiceExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
