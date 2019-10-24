@@ -26,6 +26,10 @@
 		<string>com.apple.usernotifications.service</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>Onesignal Push Notifications Service</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Onesignal Push Notifications Service</string>
 	</dict>
 </dict>
 </plist>
