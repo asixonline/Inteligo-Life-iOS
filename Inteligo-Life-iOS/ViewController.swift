@@ -6,6 +6,7 @@
 //  Copyright © 2019 Inteligo Bank. All rights reserved.
 //
 
+
 import UIKit
 import WebKit
 
@@ -19,19 +20,32 @@ class ViewController: UIViewController {
         let webView = WKWebView(frame: view.frame)
         view.addSubview(webView)
 
+        webView.uiDelegate = self
+        
         webView.isOpaque = false
         webView.backgroundColor = UIColor.clear
         webView.allowsBackForwardNavigationGestures = false
 
         let url = URL(string: "https://www.inteligolife.com/app/")!
+        //let url = URL(string: "http://dev.asixonline.com/inteligolife_app")!
         webView.load(URLRequest(url: url))
         
     }
 
+    
+    
     override var prefersStatusBarHidden: Bool{
         return true
     }
-    
 
 }
 
+extension ViewController: WKUIDelegate {
+
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        decisionHandler(WKNavigationActionPolicy.allow)
+    }
+    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
+        decisionHandler(WKNavigationResponsePolicy.allow)
+    }
+}
