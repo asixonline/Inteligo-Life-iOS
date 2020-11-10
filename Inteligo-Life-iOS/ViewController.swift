@@ -26,8 +26,8 @@ class ViewController: UIViewController {
         webView.backgroundColor = UIColor.clear
         webView.allowsBackForwardNavigationGestures = false
 
-        let url = URL(string: "https://www.inteligolife.com/app/")!
-        //let url = URL(string: "http://dev.asixonline.com/inteligolife_app")!
+        //let url = URL(string: "https://www.inteligolife.com/app/")!
+        let url = URL(string: "http://dev.asixonline.com/inteligolife_app")!
         webView.load(URLRequest(url: url))
         
     }
@@ -42,10 +42,13 @@ class ViewController: UIViewController {
 
 extension ViewController: WKUIDelegate {
 
-    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        decisionHandler(WKNavigationActionPolicy.allow)
+    func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+            if let frame = navigationAction.targetFrame,
+                frame.isMainFrame {
+                return nil
+            }
+            webView.load(navigationAction.request)
+            return nil
     }
-    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
-        decisionHandler(WKNavigationResponsePolicy.allow)
-    }
+
 }
