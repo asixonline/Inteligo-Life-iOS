@@ -26,8 +26,8 @@ class ViewController: UIViewController {
         webView.backgroundColor = UIColor.clear
         webView.allowsBackForwardNavigationGestures = false
 
-        //let url = URL(string: "https://www.inteligolife.com/app/")!
-        let url = URL(string: "http://dev.asixonline.com/inteligolife_app")!
+        let url = URL(string: "https://www.inteligolife.com/app/")!
+        //let url = URL(string: "http://dev.asixonline.com/inteligolife_app")!
         webView.load(URLRequest(url: url))
         
     }

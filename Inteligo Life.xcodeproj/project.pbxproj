@@ -11,6 +11,7 @@
 		712E60D7233929C100515531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E60D6233929C100515531 /* AppDelegate.swift */; };
 		712E60D9233929C100515531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E60D8233929C100515531 /* ViewController.swift */; };
 		712E60DC233929C100515531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712E60DA233929C100515531 /* Main.storyboard */; };
+		7174EFBD255A403E0074B41C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7174EFBC255A403E0074B41C /* Launch Screen.storyboard */; };
 		718DCABB23396CD500F3047F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718DCABA23396CD500F3047F /* Images.xcassets */; };
 		71997EA223611030000FCEAC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71997EA123611030000FCEAC /* NotificationService.swift */; };
 		71997EA623611031000FCEAC /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 71997E9F23611030000FCEAC /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -51,6 +52,7 @@
 		712E60D8233929C100515531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		712E60DB233929C100515531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712E60E2233929C500515531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7174EFBC255A403E0074B41C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		718DCABA23396CD500F3047F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71960E252357E254003BEC91 /* Inteligo Life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Inteligo Life.entitlements"; sourceTree = "<group>"; };
 		71997E9F23611030000FCEAC /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				712E60D6233929C100515531 /* AppDelegate.swift */,
 				712E60D8233929C100515531 /* ViewController.swift */,
 				712E60DA233929C100515531 /* Main.storyboard */,
+				7174EFBC255A403E0074B41C /* Launch Screen.storyboard */,
 				712E60E2233929C500515531 /* Info.plist */,
 				71ACFB0B234550D400B1C49E /* GoogleService-Info.plist */,
 				718DCABA23396CD500F3047F /* Images.xcassets */,
@@ -250,6 +253,7 @@
 			files = (
 				712E60DC233929C100515531 /* Main.storyboard in Resources */,
 				718DCABB23396CD500F3047F /* Images.xcassets in Resources */,
+				7174EFBD255A403E0074B41C /* Launch Screen.storyboard in Resources */,
 				71ACFB0C234550D400B1C49E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
