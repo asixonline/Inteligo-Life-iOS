@@ -1,11 +1,3 @@
-//
-//  NotificationService.swift
-//  OneSignalNotificationServiceExtension
-//
-//  Created by fischer on 23/10/19.
-//  Copyright © 2019 Inteligo Bank. All rights reserved.
-//
-
 import UserNotifications
 
 import OneSignal
