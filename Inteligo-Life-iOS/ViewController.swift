@@ -43,12 +43,14 @@ class ViewController: UIViewController {
 extension ViewController: WKUIDelegate {
 
     func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
-            if let frame = navigationAction.targetFrame,
-                frame.isMainFrame {
-                return nil
-            }
-            webView.load(navigationAction.request)
-            return nil
+
+        if navigationAction.targetFrame == nil {
+            //webView.load(navigationAction.request)
+            UIApplication.shared.open(navigationAction.request.url!, options: [:])
+        }
+        return nil
+        
     }
 
 }
+
