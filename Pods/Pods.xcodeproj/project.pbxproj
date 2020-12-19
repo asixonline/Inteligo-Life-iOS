@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,24 +15,23 @@
 			dependencies = (
 			);
 			name = OneSignal;
-			productName = OneSignal;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		B2801EFB77E0824168473D80DE40F82C /* Pods-Inteligo Life-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEACBE53C0EDD67D6FCE2E40D9C583C /* Pods-Inteligo Life-dummy.m */; };
-		E8641E4C4D6DDED7E41C1EB5CB0B18B3 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE401A2696F6D009D2378FB1F058F1 /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		AFADFA42DED7D18D899AA6E38B4B6ADB /* Pods-InteligoLife-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7792A99E6E750A22BAFCB2755AB02723 /* Pods-InteligoLife-dummy.m */; };
+		E8641E4C4D6DDED7E41C1EB5CB0B18B3 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525C4912BF0AAF8306D890757D55EBA /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		271A8D69F6E856CF8C44A040C3F83D05 /* PBXContainerItemProxy */ = {
+		304487A82C9B70D3E21FBC77839FA3D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 210EB05CEC7AD9C148F90F752DE74C48;
 			remoteInfo = OneSignal;
 		};
-		304487A82C9B70D3E21FBC77839FA3D0 /* PBXContainerItemProxy */ = {
+		C02EEF93BABE6F1D58E24B324A5ED916 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,22 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0862C4D56D985104DCE76FAE4787CA55 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4AEACBE53C0EDD67D6FCE2E40D9C583C /* Pods-Inteligo Life-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Inteligo Life-dummy.m"; sourceTree = "<group>"; };
-		4AF3B972C94DFF11700E306F18F01DF3 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70097153D9C02E10F8E8E49A9A8EDA87 /* Pods-Inteligo Life-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Inteligo Life-acknowledgements.markdown"; sourceTree = "<group>"; };
-		705D18810FD1E78F99020BE3B56B0FB1 /* Pods-Inteligo Life.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inteligo Life.release.xcconfig"; sourceTree = "<group>"; };
-		7EDE401A2696F6D009D2378FB1F058F1 /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		1FCD64408041EE59659E4237E6CA55AE /* Pods-InteligoLife-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InteligoLife-acknowledgements.markdown"; sourceTree = "<group>"; };
+		336965BF0EAAF4F0802CAA37A8FD2847 /* Pods-InteligoLife-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InteligoLife-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AF3B972C94DFF11700E306F18F01DF3 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OneSignalNotificationServiceExtension.a"; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D61F30D11648C75391D5197A3AEE75 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		5888A4D20AED755635A4E7983DA24267 /* Pods-InteligoLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InteligoLife.release.xcconfig"; sourceTree = "<group>"; };
+		592932ECB069AAA93816F0D3DE64D26B /* Pods-InteligoLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InteligoLife.debug.xcconfig"; sourceTree = "<group>"; };
+		7792A99E6E750A22BAFCB2755AB02723 /* Pods-InteligoLife-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InteligoLife-dummy.m"; sourceTree = "<group>"; };
+		8026EC145DBB67E38168E78308BCDA55 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		838B88AA7787E59560A0A3455BDA1CDF /* libPods-InteligoLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-InteligoLife.a"; path = "libPods-InteligoLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		902E93CF36123E61715248B4BAD22E33 /* OneSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.debug.xcconfig; sourceTree = "<group>"; };
-		9D28BC84CF88527BA583220773484D58 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABDF55CC4C8C035A473DB74E0E87281C /* Pods-Inteligo Life-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Inteligo Life-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD1F451A233F16E430C3F19C4E613978 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		D5E935CB72A77009F9298DE4BE59F4F7 /* libPods-Inteligo Life.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inteligo Life.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7843E8C67F5368D27A884736029BBA0 /* Pods-Inteligo Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inteligo Life.debug.xcconfig"; sourceTree = "<group>"; };
+		9525C4912BF0AAF8306D890757D55EBA /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A98C571F7DD33B2727249E302BFAA2E5 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		DE970C2B67E152876EBCB1DA43AB863F /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
 		EB8C2A5F2DDBF831C0AA4A938F63A708 /* OneSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.release.xcconfig; sourceTree = "<group>"; };
-		EE0C96091E92D1C1D6446DA5346E91C5 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7589C6E718883DF5D01676576CD55A0 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +67,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D5FC5BF5A42208C3CDBB37DC3F1FE1 /* Frameworks */ = {
+		723149CD7BF9E1E2070901FFE55BDF7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,10 +87,10 @@
 			path = "../Target Support Files/OneSignal";
 			sourceTree = "<group>";
 		};
-		0A457BA1187F0930EA64E9B4F61A301E /* Products */ = {
+		120050FA49C67FADE96BE4F021A9E0F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5E935CB72A77009F9298DE4BE59F4F7 /* libPods-Inteligo Life.a */,
+				838B88AA7787E59560A0A3455BDA1CDF /* libPods-InteligoLife.a */,
 				4AF3B972C94DFF11700E306F18F01DF3 /* libPods-OneSignalNotificationServiceExtension.a */,
 			);
 			name = Products;
@@ -105,35 +104,36 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		351669B637DB4E7F7D7D41CAEF01FCD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73727F22931D7819AC98AACE2C75888B /* Pods-InteligoLife */,
+				D6D035C4328C465AE690B84AD6518832 /* Pods-OneSignalNotificationServiceExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		699A7B2578216D4BEBAE7B6C9CF67AED /* OneSignal */ = {
 			isa = PBXGroup;
 			children = (
 				CFE090658AE1E3252BAA8610D3A558D4 /* Frameworks */,
 				09E310EB22806134300BFC537FB27F3D /* Support Files */,
 			);
+			name = OneSignal;
 			path = OneSignal;
 			sourceTree = "<group>";
 		};
-		724035BFB7E7B358BBDCA3DDD4BE4D8A /* Targets Support Files */ = {
+		73727F22931D7819AC98AACE2C75888B /* Pods-InteligoLife */ = {
 			isa = PBXGroup;
 			children = (
-				EDFBFC33D86272FABDBA2E5965C6DE84 /* Pods-Inteligo Life */,
-				C36E0BA7709DC08CD1ADDA736DCAEB13 /* Pods-OneSignalNotificationServiceExtension */,
+				1FCD64408041EE59659E4237E6CA55AE /* Pods-InteligoLife-acknowledgements.markdown */,
+				336965BF0EAAF4F0802CAA37A8FD2847 /* Pods-InteligoLife-acknowledgements.plist */,
+				7792A99E6E750A22BAFCB2755AB02723 /* Pods-InteligoLife-dummy.m */,
+				592932ECB069AAA93816F0D3DE64D26B /* Pods-InteligoLife.debug.xcconfig */,
+				5888A4D20AED755635A4E7983DA24267 /* Pods-InteligoLife.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C36E0BA7709DC08CD1ADDA736DCAEB13 /* Pods-OneSignalNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				0862C4D56D985104DCE76FAE4787CA55 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
-				EE0C96091E92D1C1D6446DA5346E91C5 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
-				7EDE401A2696F6D009D2378FB1F058F1 /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
-				BD1F451A233F16E430C3F19C4E613978 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
-				9D28BC84CF88527BA583220773484D58 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
-			);
-			name = "Pods-OneSignalNotificationServiceExtension";
-			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			name = "Pods-InteligoLife";
+			path = "Target Support Files/Pods-InteligoLife";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -142,8 +142,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				1D40C0AE1924259957A7C76C1386542E /* Pods */,
-				0A457BA1187F0930EA64E9B4F61A301E /* Products */,
-				724035BFB7E7B358BBDCA3DDD4BE4D8A /* Targets Support Files */,
+				120050FA49C67FADE96BE4F021A9E0F2 /* Products */,
+				351669B637DB4E7F7D7D41CAEF01FCD7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +155,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D6D035C4328C465AE690B84AD6518832 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F7589C6E718883DF5D01676576CD55A0 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				8026EC145DBB67E38168E78308BCDA55 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				9525C4912BF0AAF8306D890757D55EBA /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				A98C571F7DD33B2727249E302BFAA2E5 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				52D61F30D11648C75391D5197A3AEE75 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,30 +175,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDFBFC33D86272FABDBA2E5965C6DE84 /* Pods-Inteligo Life */ = {
-			isa = PBXGroup;
-			children = (
-				70097153D9C02E10F8E8E49A9A8EDA87 /* Pods-Inteligo Life-acknowledgements.markdown */,
-				ABDF55CC4C8C035A473DB74E0E87281C /* Pods-Inteligo Life-acknowledgements.plist */,
-				4AEACBE53C0EDD67D6FCE2E40D9C583C /* Pods-Inteligo Life-dummy.m */,
-				D7843E8C67F5368D27A884736029BBA0 /* Pods-Inteligo Life.debug.xcconfig */,
-				705D18810FD1E78F99020BE3B56B0FB1 /* Pods-Inteligo Life.release.xcconfig */,
-			);
-			name = "Pods-Inteligo Life";
-			path = "Target Support Files/Pods-Inteligo Life";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3FA0227047DBD93F18B3146194A19FBD /* Headers */ = {
+		3E17B315D2F07DC379C56BD20D83D1E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB7B5505BB1F80FF5F2A6067CFAD8EDF /* Headers */ = {
+		3FA0227047DBD93F18B3146194A19FBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,6 +195,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1E14FAE6284D7711FE979D0B1759E615 /* Pods-InteligoLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6110AAA0B002E63A44E132AE068BBFD3 /* Build configuration list for PBXNativeTarget "Pods-InteligoLife" */;
+			buildPhases = (
+				3E17B315D2F07DC379C56BD20D83D1E7 /* Headers */,
+				1223CEE94502593046D01975D32CC436 /* Sources */,
+				723149CD7BF9E1E2070901FFE55BDF7F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D337441498E478E72C7FF5CE2EDCA64 /* PBXTargetDependency */,
+			);
+			name = "Pods-InteligoLife";
+			productName = "Pods-InteligoLife";
+			productReference = 838B88AA7787E59560A0A3455BDA1CDF /* libPods-InteligoLife.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		BD0F10574EB554D7E668F50D2A5B77DF /* Pods-OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16685830460C7DAED494B1ADDB827B9C /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
@@ -213,24 +231,6 @@
 			productReference = 4AF3B972C94DFF11700E306F18F01DF3 /* libPods-OneSignalNotificationServiceExtension.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E32F54D6438952D476E4C7B5D74F9EE4 /* Pods-Inteligo Life */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8335AB14A5C1887B930ECC9DF5C27491 /* Build configuration list for PBXNativeTarget "Pods-Inteligo Life" */;
-			buildPhases = (
-				DB7B5505BB1F80FF5F2A6067CFAD8EDF /* Headers */,
-				92187DD345E1FA03B1A2D434376C4FDB /* Sources */,
-				D1D5FC5BF5A42208C3CDBB37DC3F1FE1 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6CCAF9A26130F71C4C1634E755D89AE0 /* PBXTargetDependency */,
-			);
-			name = "Pods-Inteligo Life";
-			productName = "Pods-Inteligo Life";
-			productReference = D5E935CB72A77009F9298DE4BE59F4F7 /* libPods-Inteligo Life.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,10 +238,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 12.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -249,23 +249,23 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0A457BA1187F0930EA64E9B4F61A301E /* Products */;
+			productRefGroup = 120050FA49C67FADE96BE4F021A9E0F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */,
-				E32F54D6438952D476E4C7B5D74F9EE4 /* Pods-Inteligo Life */,
+				1E14FAE6284D7711FE979D0B1759E615 /* Pods-InteligoLife */,
 				BD0F10574EB554D7E668F50D2A5B77DF /* Pods-OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92187DD345E1FA03B1A2D434376C4FDB /* Sources */ = {
+		1223CEE94502593046D01975D32CC436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2801EFB77E0824168473D80DE40F82C /* Pods-Inteligo Life-dummy.m in Sources */,
+				AFADFA42DED7D18D899AA6E38B4B6ADB /* Pods-InteligoLife-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,24 +280,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1D337441498E478E72C7FF5CE2EDCA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneSignal;
+			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
+			targetProxy = C02EEF93BABE6F1D58E24B324A5ED916 /* PBXContainerItemProxy */;
+		};
 		5D4908DDDF18E5A7BC4783EAA241E7FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OneSignal;
 			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
 			targetProxy = 304487A82C9B70D3E21FBC77839FA3D0 /* PBXContainerItemProxy */;
 		};
-		6CCAF9A26130F71C4C1634E755D89AE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OneSignal;
-			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
-			targetProxy = 271A8D69F6E856CF8C44A040C3F83D05 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EC1C781A2FF0B09FDC0261E03E32559 /* Release */ = {
+		1986FB0B099754BF4A96B9F6DD7111B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D28BC84CF88527BA583220773484D58 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			baseConfigurationReference = 5888A4D20AED755635A4E7983DA24267 /* Pods-InteligoLife.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -317,9 +317,52 @@
 			};
 			name = Release;
 		};
+		1EC1C781A2FF0B09FDC0261E03E32559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D61F30D11648C75391D5197A3AEE75 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D200E6E82E5CAA69F2ED9BB4064A3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592932ECB069AAA93816F0D3DE64D26B /* Pods-InteligoLife.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		48A2D78FAF23B10B69ECB3B81119F7E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD1F451A233F16E430C3F19C4E613978 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			baseConfigurationReference = A98C571F7DD33B2727249E302BFAA2E5 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -355,27 +398,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		90C3174C1EDC37443C18A3F06CEFBD45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7843E8C67F5368D27A884736029BBA0 /* Pods-Inteligo Life.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		A445D08D964FE9C6C05CEE2B0A948973 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -455,28 +477,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		D98F5CA115FE936608AF37977CFC6F5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 705D18810FD1E78F99020BE3B56B0FB1 /* Pods-Inteligo Life.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		EB7376794D773187B6D048F04E70CE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -574,11 +574,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8335AB14A5C1887B930ECC9DF5C27491 /* Build configuration list for PBXNativeTarget "Pods-Inteligo Life" */ = {
+		6110AAA0B002E63A44E132AE068BBFD3 /* Build configuration list for PBXNativeTarget "Pods-InteligoLife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C3174C1EDC37443C18A3F06CEFBD45 /* Debug */,
-				D98F5CA115FE936608AF37977CFC6F5F /* Release */,
+				2D200E6E82E5CAA69F2ED9BB4064A3E8 /* Debug */,
+				1986FB0B099754BF4A96B9F6DD7111B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
