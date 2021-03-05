@@ -33,6 +33,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+
+        if let userDefaults = UserDefaults(suiteName: "group.com.inteligolife.onesignal") {
+            userDefaults.set("test 1" as AnyObject, forKey: "key1")
+            userDefaults.set("test 2" as AnyObject, forKey: "key2")
+            userDefaults.synchronize()
+        }
+        if let userDefaults = UserDefaults(suiteName: "group.com.inteligolife.onesignal") {
+            let value1 = userDefaults.string(forKey: "key1")
+            let value2 = userDefaults.string(forKey: "key2")
+            print("value1 = ", value1?.description ?? "No value")
+            print("value2 = ", value2?.description ?? "No value")
+        }
+
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
@@ -45,5 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    
+    
 }
 

@@ -27,5 +27,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).NotificationService</string>
 	</dict>
+	<key>OneSignal_disable_badge_clearing</key>
+	<true/>
 </dict>
 </plist>
