@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD0F10574EB554D7E668F50D2A5B77DF"
-               BuildableName = "libPods-OneSignalNotificationServiceExtension.a"
-               BlueprintName = "Pods-OneSignalNotificationServiceExtension"
+               BlueprintIdentifier = "DAA45CD1123DE3CACC2107379D9FE787"
+               BuildableName = "OneSignal-iOS13.5"
+               BlueprintName = "OneSignal-iOS13.5"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
